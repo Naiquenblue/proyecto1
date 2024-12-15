@@ -110,9 +110,8 @@
     right: 65px;
   }
   .header__lang-arrow {
-    width: 100%;
-    height: 100%;
-    background-image: url("assets/img/arrow.png");
+    width: 28%;
+    height: 40%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 15px;
@@ -212,8 +211,7 @@
   .lang-wrapper__icon {
     display: inline-block;
     width: 23px;
-    height: 23px;
-    background-image: url("/assets/img/language-icon.png");
+    height: 20px;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -221,8 +219,7 @@
   .lang-wrapper__arrow {
     display: inline-block;
     width: 13px;
-    height: 13px;
-    background-image: url("/assets/img/blue-arrow-icon.png");
+    height: 8px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -401,7 +398,6 @@
     display: inline-block;
     width: 30px;
     height: 30px;
-    background-image: url("/assets/img/w.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -431,8 +427,8 @@
     cursor: pointer;
   }
   .android {
-    background-image: url("/assets/img/google-app-icon.png");
-    width: 124px;
+    width: 123px;
+    padding-right: 2%;
   }
   .ios {
     background-image: url("/assets/img/apple-app-icon.png");
