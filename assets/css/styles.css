@@ -95,7 +95,7 @@
     background-color: #36c;
     border: 1px solid #36c;
     color: #fff;
-    background-image: url("/assets/img/search-icon.png");
+    background-image: url(/assets/img/search-icon.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 25px 25px;
