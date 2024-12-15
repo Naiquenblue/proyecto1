@@ -383,19 +383,34 @@
     margin: 5px 5px 0 0;
   }
   .wikcionario {
-    background-image: url("/assets/img/wikcionario-logo.png");
+    width: 38px;
+    height: 43px;
+    padding: 2px;
+    margin: 5px 5px 0 0;
   }
   .wikidata {
-    background-image: url("/assets/img/wikidata-logo.png");
+    width: 43px;
+    height: 30px;
+    padding: 2px;
+    margin: 5px 5px 0 0;
   }
   .mediawiki {
-    background-image: url("/assets/img/mediawiki-logo.png");
+    width: 45px;
+    height: 48px;
+    padding: 2px;
+    margin: 5px 5px 0 0;
   }
   .wikifunctions {
-    background-image: url("/assets/img/wikifunctions-logo.png");
+    width: 45px;
+    height: 45px;
+    padding: 2px;
+    margin: 5px 5px 0 0;
   }
   .meta-wiki {
-    background-image: url("/assets/img/meta-wiki-logo.png");
+    width: 45px;
+    height: 45px;
+    padding: 2px;
+    margin: 5px 5px 0 0;
   }
   
   .footer-other-projects__link:hover {
