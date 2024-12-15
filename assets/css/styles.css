@@ -20,16 +20,15 @@
     border: none;
     border-bottom: 1px solid #c8ccd1;
   }
- 
 
   /*     Estilos del encabezado     */
-
   .header {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
+
   /***** Título y logo del encabezado *****/
   .header__textlogo {
     min-width: 303px;
@@ -64,6 +63,7 @@
     font-size: 1.4rem;
     font-weight: 400;
   }
+
   /***** Entrada de busqueda *****/
   .header__search-container {
     min-width: 283px;
@@ -117,6 +117,7 @@
     background-size: 15px;
     
   }
+
   /***** Pseudoclases para los elementos *****/
   .header__input:hover {
     border-color: #72777d;
@@ -139,6 +140,7 @@
     background-color: #f8f9fa;
     cursor: pointer;
   }
+
   /***** Estilos de las viñetas de lenguajes  *****/
   .header__central-featured {
     width: 100%;
@@ -162,6 +164,7 @@
     margin-bottom: 4px;
     color: #36c;
   }
+
   .header__card-text {
     line-height: 1.4;
     text-decoration: none;
@@ -181,6 +184,7 @@
   .header__card:focus {
     outline: 1px solid #36c;
   }
+
   /***** Estilos de el boton de idioma *****/
   .lang-wrapper {
     text-align: center;
@@ -234,6 +238,7 @@
     height: 1px;
     transition: max-width .2s ease-out 400s;
   }
+
   /***** Pseudoclases del boton de lenguajes *****/
   .lang-wrapper__button:hover {
     background-color: #fff;
@@ -245,7 +250,6 @@
   }
 
   /*       Estilos del footer       */
-
   footer {
     display: flex;
     flex-wrap: wrap;
@@ -254,6 +258,7 @@
     font-size: 1.3rem;
   
   }
+
   /***** Estilos en el sidebar *****/
   .footer-sidebar {
     width: 100%;
@@ -288,6 +293,7 @@
     height: auto;
     margin-top: 30px;
   }
+
   /***** Estilos en otros proyectos *****/
   .footer-other-projects__card-container {
     width: 50%;
@@ -329,33 +335,52 @@
     color: #54595d;
   }
   .commons {
-   
     width: 40px;
-    height: 50px;
+    height: 55px;
     padding: 2px;
     margin: 5px 5px 0 0;
-    
   }
   .wikinews{
-    background-image: url("/assets/img/wikinews-logo.png");
+    width: 50px;
+    height: 33px;
+    padding: 2px;
+    margin: 5px 5px 0 0;
   }
   .wikilibros {
-    background-image: url("/assets/img/wikilibros-logo.png");
+    width: 40px;
+    height: 45px;
+    padding: 2px;
+    margin: 5px 5px 0 0;
   }
   .wikiversidad {
-    background-image: url("/assets/img/wikiversidad-logo.png");
+    width: 45px;
+    height: 35px;
+    padding: 1px;
+    margin: 5px 5px 0 0;
   }
   .wikisource {
-    background-image: url("/assets/img/wikisource-logo.png");
+    width: 40px;
+    height: 40px;
+    padding: 2px;
+    margin: 5px 5px 0 0;
   }
   .wikiviajes {
-    background-image: url("/assets/img/wikiviajes-logo.png");
+    width: 40px;
+    height: 40px;
+    padding: 2px;
+    margin: 5px 5px 0 0;
   }
   .wikiquote {
-    background-image: url("/assets/img/wikiquote-logo.png");
+    width: 40px;
+    height: 45px;
+    padding: 2px;
+    margin: 5px 5px 0 0;
   }
   .wikispecies {
-    background-image: url("/assets/img/wikispecies-logo.png");
+    width: 40px;
+    height: 45px;
+    padding: 2px;
+    margin: 5px 5px 0 0;
   }
   .wikcionario {
     background-image: url("/assets/img/wikcionario-logo.png");
@@ -379,6 +404,7 @@
   .footer-other-projects__link:focus {
     outline: 1px solid #36c;
   }
+
   /***** Estilos en App-badges *****/
   .footer-app-badges {
     width: 100%;
@@ -431,9 +457,9 @@
     padding-right: 2%;
   }
   .ios {
-    background-image: url("/assets/img/apple-app-icon.png");
     width: 110px;
   }
+
   /***** Estilos del Site License *****/
   .site-license small {
     font-size: 1.3rem;
@@ -525,7 +551,7 @@
         overflow: hidden;
         max-width: 100%;
         margin: 0 auto;
-        padding: 4.16rem 1.28rem 1.28rem;
+        padding: 4.16rem .28rem 1.28rem;
         flex-direction: column;
       }
       .footer-sidebar {
@@ -573,7 +599,7 @@
         float: left;
       }
       .footer-app-badges {
-        width: 35%;
+        width: 33%;
         float: left;
         margin: 0 0 32px 0;
         padding: 0;
